@@ -78,7 +78,7 @@ private fun ComputerViewPreview() {
 fun ResultView(result: Int) {
     when (result) {
         0 -> Text("あいこ")
-        1 -> Text("あなたの負け。。。")
+        1 -> Text("あなたの負け。。")
         2 -> Text("あなたの勝ち！！！")
     }
 }
